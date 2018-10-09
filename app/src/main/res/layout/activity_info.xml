@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo" >
+
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/continuar"
+        android:textSize="40dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textDonaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Si te gustó el juego puedes hacerme una donación e invitarme a:"
+                android:textColor="#444444" />
+
+            <TextView
+                android:id="@+id/donacion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:text="@string/donacion1"
+                android:textColor="#0000FF" />
+
+            <TextView
+                android:id="@+id/donacion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:text="@string/donacion3"
+                android:textColor="#0000FF" />
+
+            <TextView
+                android:id="@+id/donacion5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:text="@string/donacion5"
+                android:textColor="#0000FF" />
+
+            <TextView
+                android:id="@+id/donacion10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:text="@string/donacion10"
+                android:textColor="#0000FF" />
+
+            <TextView
+                android:id="@+id/donacion30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:text="@string/donacion30"
+                android:textColor="#0000FF" />
+
+            <TextView
+                android:id="@+id/donacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:text="@string/donacion"
+                android:textColor="#0000FF" />
+
+            <ImageView
+                android:id="@+id/logoPayPal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/logo_paypal_106x27" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#c0c0c0" />
+
+            <TextView
+                android:id="@+id/textDonaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Debido a la política de Google no se pueden realizar las donaciones de momento.\n\nEsperemos que esto se pueda solucionar dentro de poco.\n\nMuchas gracias por el interés mostrado."
+                android:textColor="#444444" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#c0c0c0" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

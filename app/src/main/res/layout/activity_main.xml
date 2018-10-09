@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo" >
+
+    <RelativeLayout
+        android:id="@+id/main_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/info"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/settings"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/wordMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnInfo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="40dp"
+            android:singleLine="false"
+            android:text="@string/quien_soy"
+            android:textColor="#444444"
+            android:textSize="85sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/main_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/androide2"
+            android:contentDescription="@string/todo" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/main_footer"
+        android:layout_below="@id/main_header" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            style="?android:attr/buttonBarStyle">
+
+            <Button
+                android:id="@+id/btnCiudades"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/deck"
+                android:text="@string/Ciudades"
+                android:textColor="#444444"
+                android:textSize="60sp"
+                style="?android:attr/buttonBarButtonStyle"/>
+
+            <Button
+                android:id="@+id/btnAnimales"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/deck"
+                android:text="@string/Animales"
+                android:textColor="#444444"
+                android:textSize="60sp"
+                style="?android:attr/buttonBarButtonStyle"/>
+
+            <Button
+                android:id="@+id/btnPaises"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/deck"
+                android:text="@string/Paises"
+                android:textColor="#444444"
+                android:textSize="60sp"
+                style="?android:attr/buttonBarButtonStyle"/>
+
+            <Button
+                android:id="@+id/btnPersonajesDisney"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/deck"
+                android:text="@string/PersonajesDisney"
+                android:textColor="#444444"
+                android:textSize="60sp"
+                style="?android:attr/buttonBarButtonStyle"/>
+
+            <Button
+                android:id="@+id/btnPeliculasDisney"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/deck"
+                android:text="@string/PeliculasDisney"
+                android:textColor="#444444"
+                android:textSize="60sp"
+                style="?android:attr/buttonBarButtonStyle"/>
+
+            <Button
+                android:id="@+id/btnPeliculas"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/deck"
+                android:text="@string/Peliculas"
+                android:textColor="#444444"
+                android:textSize="60sp"
+                style="?android:attr/buttonBarButtonStyle"/>
+
+            <Button
+                android:id="@+id/btnSuperheroes"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/deck"
+                android:text="@string/Superheroes"
+                android:textColor="#444444"
+                android:textSize="55sp"
+                style="?android:attr/buttonBarButtonStyle"/>
+            
+            <Button
+                android:id="@+id/btnEspecialNavidad"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/deck"
+                android:text="@string/EspecialNavidad"
+                android:textColor="#444444"
+                android:textSize="60sp"
+                style="?android:attr/buttonBarButtonStyle"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

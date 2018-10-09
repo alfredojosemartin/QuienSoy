@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">¿Quién Soy?</string>
+    <string name="jugar">JUGAR</string>
+    <string name="NumeroAciertos">Nº Aciertos:</string>
+    <string name="enlafrente">PONTE EL MOVIL EN LA FRENTE</string>
+    <string name="Animales">ANIMALES</string>
+    <string name="Ciudades">CIUDADES</string>
+    <string name="Paises">PAISES</string>
+    <string name="PersonajesDisney">PERSONAJES DISNEY</string>
+    <string name="PeliculasDisney">PELICULAS DISNEY</string>
+    <string name="Peliculas">PELICULAS</string>
+    <string name="Superheroes">SUPERHEROES</string>
+    <string name="EspecialNavidad">ESPECIAL NAVIDAD</string>
+	<string name="mantenPresionado">*Mantén presionado un resultado para conocer más sobre él.</string>
+	<string name="continuar">CONTINUAR</string>
+	<string name="donacion"><u>lo que a ti te de la gana</u></string>
+	<string name="donacion1"><u>un cafe (1€)</u></string>
+	<string name="donacion3"><u>una cerveza y tapa (3€)</u></string>
+	<string name="donacion5"><u>un cine barato (5€)</u></string>
+	<string name="donacion10"><u>un cine caro  (10€)</u></string>
+	<string name="donacion30"><u>una cena (30€)</u></string>
+    <string name="acierto">Acierto!!</string>
+    <string name="error">Error!!</string>
+    <string name="verResultados">Presiona para ver los resultados.</string>
+    <string name="quien_soy">¿Quién Soy?</string>
+    <string name="todo">TODO</string>
+</resources>
